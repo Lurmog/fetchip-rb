@@ -13,38 +13,16 @@ FetchIP-RB is a Ruby script that retrieves the user's public, local IP address a
 - Fallback to English if the language is not supported or disconnected from the Internet.
 - Detects the computer's operating system and the version.
 
-## Installation
-
-A Python script is provided to facilitate the installation of Ruby on both Linux and macOS systems. This script automatically detects your operating system and installs Ruby using the appropriate method for your system.
-WARNING: This script does not work on Windows systems. Please follow the instructions below to install Ruby on Windows.
-
-### Steps to Use the Installation Script (macOS and Linux)
-
-1. Download the `installrb.py` script.
-2. Run the script in your terminal:
-    - On Linux: Use `sudo python3 installrb.py`.
-    - On macOS: Simply run `python3 installrb.py`.
-3. The script will install Ruby on your system.
-4. Proceed to the [Usage](#usage) section.
-
-### Windows
-
-1. Download and install Ruby from the [RubyInstaller for Windows website](https://rubyinstaller.org/downloads/).
-2. Follow the instructions on the website to install Ruby.
-3. Proceed to the [Usage](#usage) section.
-
 ## Dependencies
 
-- Ruby
-- Python 3 (only for the installation script/not required for the main script)
+- Ruby (See [Installation](https://github.com/Lurmog/fetchip-rb/tree/help-with-installation/Installation.md))
 
 ## Usage
 
-1. Ensure Ruby is installed on your system (use the installation script if needed). And you are connected to the Internet.
-2. Download the `fetchip-rb.rb` script.
-3. Run the script in your terminal using the command `ruby fetchip-rb.rb`.
-4. You can also run the script to auto refresh IP details every # seconds using the command `ruby fetchip-rb.rb #` where # is the number of seconds to wait before refreshing. (e.g. `ruby fetchip-rb.rb 5` to refresh every 5 seconds)
-5. Informations will appear in the terminal.
+1. Download the `fetchip-rb.rb` script.
+2. Run the script in your terminal using the command `ruby fetchip-rb.rb`.
+3. You can also run the script to auto refresh IP details every # seconds using the command `ruby fetchip-rb.rb #` where # is the number of seconds to wait before refreshing. (e.g. `ruby fetchip-rb.rb 5` to refresh every 5 seconds)
+4. Informations will appear in the terminal.
 
 ## License
 
